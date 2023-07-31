@@ -1,13 +1,19 @@
 {
-  "name": "qilanbei",
+  "name": "nw",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-  "bin": "./bin/qilanbei",
+  "bin": {
+    "nw": "./bin/nw"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^11.0.0"
+  }
 }
